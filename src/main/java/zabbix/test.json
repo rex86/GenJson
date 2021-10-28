@@ -1,0 +1,48 @@
+{
+  "jsonrpc": "2.0",
+  "method": "host.create",
+  "params": [{
+    "host": "ap3jak",
+    "interfaces": [{
+      "type": 1,
+      "main": 1,
+      "useip": 1,
+      "ip": "10.40.0.102",
+      "dns": "",
+      "port": "10050"
+    }],
+    "groups": [{
+      "groupid": "28"
+    },
+      {
+        "groupid": "25"
+      }
+    ],
+    "templates": [{
+      "templateid": "10186"
+    }]
+  },
+    {"host": "ap1btkm",
+      "interfaces": [{
+        "type": 1,
+        "main": 1,
+        "useip": 1,
+        "ip": "10.40.0.100",
+        "dns": "",
+        "port": "10050"
+      }],
+      "groups": [{
+        "groupid": "28"
+      },
+        {
+          "groupid": "25"
+        }
+      ],
+      "templates": [{
+        "templateid": "10186"
+      }]
+    }],
+  "auth": "b64ea64d42cd6b9a26ff63922c6b9469",
+  "id": 1
+}
+
